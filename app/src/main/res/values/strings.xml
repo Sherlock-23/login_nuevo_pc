@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Patitas sanas y felices</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="string1">Patitas sanas y felices</string>
+
+    <string name="iniciarsesion">Iniciar Sesión </string>
+    <string name="crearcuenta">Crear Cuenta </string>
+
+    <string name="datos">Ingrese los siguientes datos para crear su propia cuenta y pertenecer a esta gran comunidad. </string>
+
+    <string name="nombre">Ingrese su Nombre </string>
+    <string name="apellido">Ingrese su Apellido</string>
+    <string name="email">Email: nombre@example.com </string>
+    <string name="edad">Ingrese su edad</string>
+    <string name="usuario">Ingrese su usuario </string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confirmar">Confirmar Contraseña</string>
+    <string name="guardardato">Guardar datos</string>
+
+
+    <string name="textocrearcuenta">Si aun no tienes una cuenta no esperes mas y pulsa en "crear cuenta"</string>
+    <string name="textoiniciarsesion">Si ya estas registrado solo pulsa en "iniciar sesión"</string>
+
+    <string name="bien">Felicitaciones!!!</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
