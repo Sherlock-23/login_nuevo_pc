@@ -35,6 +35,7 @@ import java.util.List;
 /**
  * Created by Gonzalo on 17/10/2015.
  */
+
 public class ImplicitActivity extends Activity implements Validator.ValidationListener {
 
 
@@ -107,12 +108,16 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
         validator.setValidationListener(this);
 
 
+
+
+
         guardar.setOnClickListener(new View.OnClickListener() {
 
 
-            @Override
+
             public void onClick(View v) {
 
+                validator.validate();
 
                 String userName = tusuario.getText().toString();
                 String password = tcontraseña.getText().toString();
@@ -120,42 +125,46 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
 
                 // check if any of the fields are vaccant
-                if(userName.equals("")||password.equals("")||confirmPassword.equals(""))
-                {
-                    Toast.makeText(getApplicationContext(), "Field Vaccant", Toast.LENGTH_LONG).show();
+                if (userName.equals("") || password.equals("") || confirmPassword.equals("")) {
+                    //Toast.makeText(getApplicationContext(), "Field Vaccant", Toast.LENGTH_LONG).show();
                     return;
                 }
                 // check if both password matches
-                if(!password.equals(confirmPassword))
-                {
+                if (!password.equals(confirmPassword)) {
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
                     return;
-                }
-                else
-                {
+                } else {
                     // Save the Data in Database
                     loginDataBaseAdapter.insertEntry(userName, password);
-                    Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                   // Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
                 }
 
-                validator.validate();
 
 
 
             }
+
+
         });
+
+
+
     }
 
 
 
-    @Override
+
+
+
+
+
+
     public void onValidationSucceeded() {
 
         Toast.makeText(this, "Datos ingresados correctamente", Toast.LENGTH_SHORT).show();
 
     }
 
-    @Override
 
     public void onValidationFailed(List<ValidationError> errors) {
 
@@ -192,4 +201,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
         loginDataBaseAdapter.close();
     }
+
+
+
 }
