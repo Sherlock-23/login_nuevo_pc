@@ -107,6 +107,9 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
         validator.setValidationListener(this);
 
 
+
+
+
         guardar.setOnClickListener(new View.OnClickListener() {
 
 
@@ -114,76 +117,77 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
             public void onClick(View v) {
 
 
-                String userName=tusuario.getText().toString();
-                String password=tcontraseña.getText().toString();
-                String confirmPassword=tconfirmar.getText().toString();
+                String userName = tusuario.getText().toString();
+                String password = tcontraseña.getText().toString();
+                String confirmPassword = tconfirmar.getText().toString();
 
 
                 // check if any of the fields are vaccant
-                if(userName.equals("")||password.equals("")||confirmPassword.equals(""))
-                {
+                if (userName.equals("") || password.equals("") || confirmPassword.equals("")) {
                     Toast.makeText(getApplicationContext(), "Field Vaccant", Toast.LENGTH_LONG).show();
                     return;
                 }
                 // check if both password matches
-                if(!password.equals(confirmPassword))
-                {
+                if (!password.equals(confirmPassword)) {
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
                     return;
-                }
-                else
-                {
+                } else {
                     // Save the Data in Database
                     loginDataBaseAdapter.insertEntry(userName, password);
                     Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
                 }
 
-                validator.validate();
-
+                // *ANTES* validator.validate();
 
 
             }
+
+
+
+            @Override
+            public void onValidationSucceeded() {
+
+                Toast.makeText(this, "Datos ingresados correctamente", Toast.LENGTH_SHORT).show();
+
+
+            }
+
+
+            @Override
+
+            public void onValidationFailed(List<ValidationError> errors) {
+
+                for (ValidationError error : errors) {
+
+                    View view = error.getView();
+                    String message = error.getCollatedErrorMessage(this);
+
+                    if (view instanceof EditText) {
+
+                        ((EditText) view).setError(message);
+                    } else {
+
+
+                        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+                    }
+
+                }
+
+            }
+
+
         });
-    }
 
 
 
-    @Override
-    public void onValidationSucceeded(){
 
-        Toast.makeText(this, "Datos ingresados correctamente", Toast.LENGTH_SHORT).show();
+
+    validator.validate();
 
     }
 
-    @Override
+}
 
-    public void onValidationFailed(List<ValidationError> errors) {
-
-        for (ValidationError error : errors) {
-
-            View view = error.getView();
-            String message = error.getCollatedErrorMessage(this);
-
-            if (view instanceof EditText){
-
-                ((EditText) view).setError(message);
-            }
-            else
-            {
-
-
-                Toast.makeText(this, message, Toast.LENGTH_LONG).show();
-            }
-
-        }
-
-
-
-
-
-
-
-    }
 
     @Override
     protected void onDestroy() {
@@ -192,4 +196,3 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
         loginDataBaseAdapter.close();
     }
-}
