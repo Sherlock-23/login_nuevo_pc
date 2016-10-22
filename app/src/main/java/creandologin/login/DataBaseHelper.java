@@ -11,6 +11,7 @@ import android.util.Log;
  * Created by Gonzalo on 01/11/2015.
  * Esto es una prueba para el commit local
  * Esto es una prueba para identificar las diferencias al comparar versiones.
+ * Esto es una prueba para identificar las diferencias al comparar versiones entre ramas
  */
 
 public class DataBaseHelper extends SQLiteOpenHelper
