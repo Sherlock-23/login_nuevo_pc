@@ -28,7 +28,9 @@ import com.mobsandgeeks.saripaar.annotation.Max;
 import com.mobsandgeeks.saripaar.annotation.Min;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
+
 import com.mobsandgeeks.saripaar.annotation.ValidateUsing;
+import com.mobsandgeeks.saripaar.rule.NotEmptyRule;
 
 import java.util.List;
 
@@ -42,10 +44,14 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
     Button guardar;
     Validator validator;
 
-    @NotEmpty(message = "Escriba su Nombre")
+
+
+    @NotEmpty (message = "Escriba su Nombre")
     EditText tnombre;
+
     @NotEmpty(message = "Escriba su Apellido")
     EditText tapellido;
+
     @Email(message = "Email incorrecto")
     EditText  temail;
 
@@ -59,7 +65,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
     @ConfirmPassword (message = "Las contraseñas no coinciden")
     EditText  tconfirmar;
 
-    @NotEmpty(message = "El usuario debe contener 15 caracteres (A-Z, a-z y 0-9)")
+    @NotEmpty (message = "El usuario debe contener 10 caracteres (A-Z, a-z y 0-9)")
     EditText  tusuario;
 
 
@@ -139,7 +145,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
                    // Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
                 }
 
-
+                //validator.validate();
 
 
             }

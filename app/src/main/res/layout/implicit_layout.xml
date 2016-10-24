@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:orientation="vertical"
-
-
-
     android:gravity="top|center_vertical"
     android:weightSum="1"
     android:background="@drawable/inicio2">
+
+
 
 <include
     android:id="@+id/toolbar"
@@ -33,12 +33,17 @@
         android:layout_gravity="center_horizontal"
         android:background="@drawable/perritocorazon" />
 
+
+
     <EditText
         android:layout_width="276dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
+        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ"
         android:ems="10"
         android:hint="@string/nombre"
+        android:maxLength="10"
+        android:singleLine="true"
         android:id="@+id/nombre"
         android:gravity="left|center" />
 
@@ -47,8 +52,11 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:hint="@string/apellido"
+        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ"
         android:ems="10"
         android:id="@+id/apellido"
+        android:maxLength="10"
+        android:singleLine="true"
         android:gravity="left|center" />
 
     <EditText
@@ -79,8 +87,10 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:maxLength="15"
+        android:singleLine="true"
         android:id="@+id/usuario"
         android:hint="@string/usuario"
+        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ0123456789"
         android:gravity="left|center" />
 
     <EditText
@@ -103,6 +113,8 @@
         android:hint="@string/confirmar"
         android:id="@+id/confirmar" />
 
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -110,6 +122,8 @@
         android:text="@string/guardardato"
         android:background="@color/colorregistro"
         android:id="@+id/guardar"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
 
 </LinearLayout>
