@@ -2,6 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
 
+
+
+
+
+
     android:background="@drawable/registro2">
 
 
@@ -24,6 +29,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/iniciosesion1"
         android:hint="@string/usuario"
+        android:singleLine="true"
         android:layout_marginBottom="132dp"
         android:gravity="center"
         android:layout_alignParentBottom="true"
@@ -36,6 +42,7 @@
         android:ems="10"
         android:id="@+id/iniciosesion2"
         android:hint="@string/contraseña"
+        android:singleLine="true"
         android:layout_marginTop="59dp"
         android:gravity="center"
         android:layout_below="@+id/imageView4"

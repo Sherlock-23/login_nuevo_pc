@@ -9,10 +9,10 @@
 
 
 
-<include
-    android:id="@+id/toolbar"
-    layout="@layout/toolbar"
-    ></include>
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        ></include>
 
 
     <TextView
