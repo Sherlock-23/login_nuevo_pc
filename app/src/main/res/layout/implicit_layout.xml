@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="top|center_vertical"
     android:weightSum="1"
@@ -20,11 +21,11 @@
         android:layout_height="wrap_content"
         android:text="@string/datos"
         android:textColor="@color/negro"
-        android:textStyle="bold"
+        android:textStyle="italic"
         android:textSize="15sp"
         android:id="@+id/datos"
         android:layout_weight="0.14"
-        android:gravity="top|center_vertical" />
+        android:gravity="center" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -39,10 +40,9 @@
         android:layout_width="276dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ"
         android:ems="10"
         android:hint="@string/nombre"
-        android:maxLength="10"
+        android:maxLength="15"
         android:singleLine="true"
         android:id="@+id/nombre"
         android:gravity="left|center" />
@@ -52,10 +52,9 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:hint="@string/apellido"
-        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ"
         android:ems="10"
         android:id="@+id/apellido"
-        android:maxLength="10"
+        android:maxLength="15"
         android:singleLine="true"
         android:gravity="left|center" />
 
@@ -86,12 +85,13 @@
         android:layout_width="276dp"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:maxLength="15"
+        android:maxLength="13"
         android:singleLine="true"
         android:id="@+id/usuario"
         android:hint="@string/usuario"
-        android:digits="abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMÑOPQRSTUVWXYZ0123456789"
         android:gravity="left|center" />
+
+
 
     <EditText
         android:layout_width="276dp"
@@ -120,7 +120,8 @@
         android:layout_height="wrap_content"
 
         android:text="@string/guardardato"
-        android:background="@color/colorregistro"
+        android:textColor="@color/blanco"
+        android:backgroundTint="@color/colorinicio"
         android:id="@+id/guardar"
         android:gravity="center"
         android:layout_gravity="center_horizontal" />

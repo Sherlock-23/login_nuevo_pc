@@ -28,9 +28,11 @@ import com.mobsandgeeks.saripaar.annotation.Max;
 import com.mobsandgeeks.saripaar.annotation.Min;
 import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
+import com.mobsandgeeks.saripaar.annotation.Pattern;
 
 import com.mobsandgeeks.saripaar.annotation.ValidateUsing;
 import com.mobsandgeeks.saripaar.rule.NotEmptyRule;
+
 
 import java.util.List;
 
@@ -46,10 +48,10 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
 
 
-    @NotEmpty (message = "Escriba su Nombre")
+    @Pattern (regex = "[a-zA-Z]+",message = "Escriba su Nombre")
     EditText tnombre;
 
-    @NotEmpty(message = "Escriba su Apellido")
+    @Pattern(regex = "[a-zA-Z]+", message = "Escriba su Apellido")
     EditText tapellido;
 
     @Email(message = "Email incorrecto")
@@ -65,7 +67,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
     @ConfirmPassword (message = "Las contraseñas no coinciden")
     EditText  tconfirmar;
 
-    @NotEmpty (message = "El usuario debe contener 10 caracteres (A-Z, a-z y 0-9)")
+    @Pattern (regex = "([0-9]{0,}[a-zA-Z]+[0-9]{0,})+", message = "El usuario debe contener 13 caracteres (A-Z, a-z y 0-9)")
     EditText  tusuario;
 
 
