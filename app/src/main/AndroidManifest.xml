@@ -24,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ImplicitActivity"
             android:screenOrientation="portrait" />
@@ -34,9 +33,11 @@
         <activity
             android:name=".Principal"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".probando"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".menu_principal"
             android:screenOrientation="portrait" />
         <!--
              ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -45,10 +46,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-
-
-
 
 
     </application>
