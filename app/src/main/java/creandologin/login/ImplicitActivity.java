@@ -146,6 +146,8 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
                     // Save the Data in Database
                     loginDataBaseAdapter.insertEntry(userName, password);
                    // Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                    Intent a = new Intent (ImplicitActivity.this, probando.class);
+                    startActivity(a);
                 }
 
                 //validator.validate();

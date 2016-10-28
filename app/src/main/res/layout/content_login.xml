@@ -31,7 +31,6 @@
         android:layout_height="wrap_content"
         android:text="@string/iniciarsesion"
         android:id="@+id/inicios"
-        android:onClick="quieroentrar"
         android:textColor="@color/blanco"
         android:backgroundTint="@color/colorinicio"
         android:layout_marginBottom="45dp"
