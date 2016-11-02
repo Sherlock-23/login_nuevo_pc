@@ -26,6 +26,17 @@
     <string name="bien">Felicitaciones!!!</string>
     <string name="title_activity_login">Sign in</string>
 
+
+    <string name="amdusuario">Administración usuario</string>
+    <string name="amdmascota">Administración mascotas</string>
+    <string name="integracion">Integración y cariño</string>
+    <string name="aliementar">Alimentación y descanso</string>
+    <string name="paseo">Paseo en compañia</string>
+    <string name="veterinario">Veterinario</string>
+    <string name="esterilizacion">Esterilización</string>
+    <string name="salud">Atender salud</string>
+    <string name="adiestrar">Adiestrar sin golpes</string>
+    <string name="adopcion">Adopción</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
