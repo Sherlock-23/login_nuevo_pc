@@ -5,12 +5,12 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-/**
- * Created by Gonzalo on 03/11/2015.
- */
+
 public class Principal extends Activity {
 
-    private Toolbar toolbar;
+    /**
+     * Created by Gonzalo on 03/11/2015.
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

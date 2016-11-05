@@ -1,46 +1,30 @@
 package creandologin.login;
 
-import android.app.ActionBar;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
-import android.security.keystore.UserNotAuthenticatedException;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
-import android.widget.ToggleButton;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.ConfirmPassword;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.Max;
 import com.mobsandgeeks.saripaar.annotation.Min;
-import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
 import com.mobsandgeeks.saripaar.annotation.Pattern;
-
-import com.mobsandgeeks.saripaar.annotation.ValidateUsing;
-import com.mobsandgeeks.saripaar.rule.NotEmptyRule;
-
-
 import java.util.List;
 
-/**
- * Created by Gonzalo on 17/10/2015.
- */
 
 public class ImplicitActivity extends Activity implements Validator.ValidationListener {
+    /**
+     * Created by Gonzalo on 17/10/2015.
+     */
 
 
     Button guardar;
@@ -76,12 +60,6 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
 
 
-
-
-
-
-
-    private Toolbar toolbar;
 
 
 
@@ -141,7 +119,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
                 // check if both password matches
                 if (!password.equals(confirmPassword)) {
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
-                    return;
+                    //return;
                 } else {
                     // Save the Data in Database
                     loginDataBaseAdapter.insertEntry(userName, password);

@@ -1,18 +1,18 @@
 package creandologin.login;
 
-import android.app.Activity;
+
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-/**
- * Created by Gonzalo on 20/10/2015.
- */
+
 public class Inicio extends AppCompatActivity {
 
 
-    private Toolbar toolbar;
+    /**
+     * Created by Gonzalo on 20/10/2015.
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,12 +5,15 @@
     android:orientation="vertical"
     android:gravity="top"
     android:weightSum="1"
-    android:contextClickable="false">
+    android:contextClickable="false"
+    android:background="@drawable/fondoclaro">
 
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         ></include>
+
+
 
     <ImageView
         android:layout_width="50dp"

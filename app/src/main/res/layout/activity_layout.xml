@@ -38,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Iniciar Sesión"
+        android:text="@string/tituloiniciarsesion"
         android:id="@+id/iniciosesion3"
         android:textColor="@color/blanco"
         android:backgroundTint="@color/colorinicio"
