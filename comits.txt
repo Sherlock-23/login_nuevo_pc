@@ -1,0 +1,132 @@
+commit 23e69bb231d24678ab6802f11d36463415e176d8
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Sat Nov 5 04:04:12 2016 -0300
+
+    probando la rama de desarrollo, se supone que este commit solo deberia estar en la rama de desarrollo.
+
+commit 5adcabf4ab4b6f36028ef6ed8e8cc828b67d2fad
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Wed Nov 2 10:53:02 2016 -0300
+
+    Las imagenes del menu principal estan ok, ahora estoy tratando de sacar los errores que aparecen por una conexion que no se puede realizar.
+
+commit 5621ff2d59960199feb1d10cf361cf8a4967b789
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 31 17:31:29 2016 -0300
+
+    El error que mandaba antes era por esto  :
+    
+    <meta-data
+                                                        android:name="com.google.android.gms.version", lo cual se agrego en el android manifest y ya fue sacado.
+
+commit b8230576ef01c59366c4b4dd695d5f99ff2575f4
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 31 17:20:25 2016 -0300
+
+    Agregando las imagenes del menu principal del aplicativo.
+
+commit bc6ffd636e47da9e7a00b5c2307d710c7361d1e4
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Fri Oct 28 20:09:57 2016 -0300
+
+    Agrege una imagen al menu principal, estoy probando si puedo presionarla y acceder a otra vista.
+
+commit b0cc3d0406654e6f3d27829a3ee7e9998d716a05
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Fri Oct 28 17:11:30 2016 -0300
+
+    Primera revision del aplicativo, en donde se resuelven problemas de diseño y campos de texto.
+
+commit cb4af0b57bb220e31a40f9c4890f3dc90521a2a1
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Thu Oct 27 12:41:24 2016 -0300
+
+    Mejorando diseño del aplicativo.
+
+commit 272535d917aef94be9765c6f443414d24a55f954
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 24 22:52:20 2016 -0300
+
+    En esta version me di cuenta que no puedo hacer que el usuario sea escrito con letras,numeros y caracteres como -_, es por eso que se procedera con otro tipo de validacion.
+
+commit cceeb6adf022636f85b7311ef91b57d6dbf110d2
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 24 19:12:53 2016 -0300
+
+    Corrigiendo errores del registro, en estos momentos me encuentro validando que la persona no solo ingrese numeros a su usuarios, sino que pueda ingresar mas caracteres para que sea valido.
+
+commit 6fcb404f1c0e0f706427223088f7630b56acc869
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Sat Oct 22 18:50:23 2016 -0300
+
+    Ahora si funciona la validacion de saripaar, solo puse la validacion validator.validate(); abajo del onclick que se activa al apretar el boton "guardar datos"
+
+commit 3f1229fa3a3aaa8b0071e5bbd1f013d5a851c94a
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Sat Oct 22 17:37:28 2016 -0300
+
+    Volvi a la version anterior
+
+commit fe2a83bb71fadaa12228cf88b19c43cf2d39b62d
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Sat Oct 22 17:32:40 2016 -0300
+
+    Resolviendo errores de validacion
+
+commit 5dc480857c6bfe6f383da64cec98d584ca0f2188
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Sat Oct 22 14:56:31 2016 -0300
+
+    Prueba para comparar versiones entre ramas
+
+commit 87db4d5312247a296abcfcbe827a8f5f4d40818f
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Wed Oct 19 19:53:41 2016 -0300
+
+    Prueba para comparar versiones
+
+commit 96c8d50a7001ad8c9d4f9458412775dd95cb5690
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Tue Oct 18 19:34:57 2016 -0300
+
+    El problema son los archivos que tienen algunos errores(Segun el analizador)
+
+commit 7d95b19647d0e770df7d6357872d27c199296332
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Tue Oct 18 19:20:54 2016 -0300
+
+    El problema son los archivos que tienen algunos errores(Segun el analizador)
+
+commit 2f29cee145cd8611f127ef5c5adcbdf7952da8fe
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 17 20:21:52 2016 -0300
+
+    probando subir archivos sin warnings
+    
+    65 de 73 archivos
+
+commit 0f9032584d9bafadd826935ba0e5cacc893478b8
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 17 20:20:40 2016 -0300
+
+    probando subir archivos sin warnings
+    
+    65 de 73 archivos
+
+commit 896dc48164b7c245340c4b031b0b542d6f0a2400
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 17 19:46:15 2016 -0300
+
+    Subiendo proyecto compelto, 91 archivos (ahora si)
+
+commit 7726810d20da9460793282455b92c3a8aff0d794
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 17 19:41:46 2016 -0300
+
+    Subiendo proyecto compelto, 91 archivos.
+
+commit 9fe1bb56d2b5af2e65ddddf2769a4cd6f3ac80d1
+Author: Sherlock-23 <gonzalo.arck@gmail.com>
+Date:   Mon Oct 17 18:52:32 2016 -0300
+
+    intentando subir estos archivos a github

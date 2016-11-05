@@ -38,6 +38,10 @@
 
             ></activity>
 
+        <activity
+            android:name=".probando"
+            android:screenOrientation="portrait" />
+
 
     </application>
 

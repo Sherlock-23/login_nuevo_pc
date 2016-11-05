@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+
+    android:background="@drawable/registro2">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        ></include>
+
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/iniciosesion1"
+        android:hint="@string/usuario"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/iniciosesion2"
+        android:layout_alignStart="@+id/iniciosesion2" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/iniciosesion2"
+        android:hint="@string/contraseña"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_below="@+id/iniciosesion1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloiniciarsesion"
+        android:id="@+id/iniciosesion3"
+        android:textColor="@color/blanco"
+        android:backgroundTint="@color/colorinicio"
+        android:layout_below="@+id/iniciosesion2"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:background="@drawable/perritotaza"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/iniciosesion1"
+        android:layout_alignRight="@+id/iniciosesion1"
+        android:layout_alignEnd="@+id/iniciosesion1"
+        android:layout_alignLeft="@+id/iniciosesion1"
+        android:layout_alignStart="@+id/iniciosesion1" />
+
+
+</RelativeLayout>

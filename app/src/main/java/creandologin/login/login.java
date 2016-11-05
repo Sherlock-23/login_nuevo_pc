@@ -1,8 +1,6 @@
 package creandologin.login;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,13 +10,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.Toast;
-import android.widget.EditText;
-import android.app.Dialog;
+
 
 public class login extends AppCompatActivity {
 
-   Button crearcuenta, sesion;
+    Button crearcuenta, sesion;
 
     LoginDataBaseAdapter loginDataBaseAdapter;
 
@@ -50,7 +46,7 @@ public class login extends AppCompatActivity {
 
 
 
-        sesion = (Button)findViewById(R.id.inicios);
+
 
 
 
@@ -68,11 +64,10 @@ public class login extends AppCompatActivity {
 
 
 
+        //presionando el boton de crear cuenta
+
 
         crearcuenta = (Button) findViewById(R.id.crearcuenta);
-
-
-
         crearcuenta.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -83,6 +78,21 @@ public class login extends AppCompatActivity {
 
 
         });
+
+
+        //presionando el boton de iniciar sesion
+
+        sesion = (Button)findViewById(R.id.inicios);
+        sesion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent botoniniciarsesion = new Intent(login.this, probando.class);
+                startActivity(botoniniciarsesion);
+            }
+        });
+
+
+
 
 
 
@@ -133,66 +143,8 @@ public class login extends AppCompatActivity {
 
 
 
-    public void quieroentrar(View V)
-    {
-        final Dialog dialog = new Dialog(login.this);
-        dialog.setContentView(R.layout.inicio_layout);
-       dialog.setTitle("Inicio Sesión");
-
-
-
-
-        // get the Refferences of views
-        final  EditText usuario=(EditText)dialog.findViewById(R.id.iniciosesion1);
-        final  EditText contraseña=(EditText)dialog.findViewById(R.id.iniciosesion2);
-
-        Button sesion=(Button)dialog.findViewById(R.id.iniciosesion3);
-
-        // Set On ClickListener
-        sesion.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                // get The User name and Password
-                String userName = usuario.getText().toString();
-                String password = contraseña.getText().toString();
-
-                // fetch the Password form database for respective user name
-                String storedPassword = loginDataBaseAdapter.getSinlgeEntry(userName);
-
-                // check if the Stored password matches with  Password entered by user
-                if (password.equals(storedPassword)) {
-
-
-                    Toast.makeText(login.this, "Congrats: Login Successfull", Toast.LENGTH_LONG).show();
-                    Intent a = new Intent(login.this, Principal.class);
-                    startActivity(a);
-                    dialog.dismiss();
-
-
-                } else {
-                    Toast.makeText(login.this, "User Name or Password does not match", Toast.LENGTH_LONG).show();
-                }
-
-
-            }
-
-
-        });
-
-
-
-        dialog.show();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        // Close The Database
-        loginDataBaseAdapter.close();
-    }
 
 
 
 
 }
-

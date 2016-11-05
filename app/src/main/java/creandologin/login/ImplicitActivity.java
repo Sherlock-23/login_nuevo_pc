@@ -1,51 +1,43 @@
 package creandologin.login;
 
-import android.app.ActionBar;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
-import android.security.keystore.UserNotAuthenticatedException;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.RadioGroup;
 import android.widget.Toast;
-import android.widget.ToggleButton;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-
 import com.mobsandgeeks.saripaar.ValidationError;
 import com.mobsandgeeks.saripaar.Validator;
 import com.mobsandgeeks.saripaar.annotation.ConfirmPassword;
 import com.mobsandgeeks.saripaar.annotation.Email;
 import com.mobsandgeeks.saripaar.annotation.Max;
 import com.mobsandgeeks.saripaar.annotation.Min;
-import com.mobsandgeeks.saripaar.annotation.NotEmpty;
 import com.mobsandgeeks.saripaar.annotation.Password;
-import com.mobsandgeeks.saripaar.annotation.ValidateUsing;
-
+import com.mobsandgeeks.saripaar.annotation.Pattern;
 import java.util.List;
 
-/**
- * Created by Gonzalo on 17/10/2015.
- */
 
 public class ImplicitActivity extends Activity implements Validator.ValidationListener {
+    /**
+     * Created by Gonzalo on 17/10/2015.
+     */
 
 
     Button guardar;
     Validator validator;
 
-    @NotEmpty(message = "Escriba su Nombre")
+
+
+    @Pattern (regex = "[a-zA-Z]+",message = "Escriba su Nombre")
     EditText tnombre;
-    @NotEmpty(message = "Escriba su Apellido")
+
+    @Pattern(regex = "[a-zA-Z]+", message = "Escriba su Apellido")
     EditText tapellido;
+
     @Email(message = "Email incorrecto")
     EditText  temail;
 
@@ -59,7 +51,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
     @ConfirmPassword (message = "Las contraseñas no coinciden")
     EditText  tconfirmar;
 
-    @NotEmpty(message = "El usuario debe contener 15 caracteres (A-Z, a-z y 0-9)")
+    @Pattern (regex = "([0-9]{0,}[a-zA-Z]+[0-9]{0,})+", message = "El usuario debe contener 13 caracteres (A-Z, a-z y 0-9)")
     EditText  tusuario;
 
 
@@ -68,12 +60,6 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
 
 
-
-
-
-
-
-    private Toolbar toolbar;
 
 
 
@@ -126,20 +112,23 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
 
                 // check if any of the fields are vaccant
                 if (userName.equals("") || password.equals("") || confirmPassword.equals("")) {
-                    //Toast.makeText(getApplicationContext(), "Field Vaccant", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getApplicationContext(), "Al usuario le faltan expresiones regulares", Toast.LENGTH_LONG).show();
                     return;
                 }
+
                 // check if both password matches
                 if (!password.equals(confirmPassword)) {
                     Toast.makeText(getApplicationContext(), "Password does not match", Toast.LENGTH_LONG).show();
-                    return;
+                    //return;
                 } else {
                     // Save the Data in Database
                     loginDataBaseAdapter.insertEntry(userName, password);
-                   // Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                    // Toast.makeText(getApplicationContext(), "Account Successfully Created ", Toast.LENGTH_LONG).show();
+                    Intent a = new Intent (ImplicitActivity.this, probando.class);
+                    startActivity(a);
                 }
 
-
+                //validator.validate();
 
 
             }

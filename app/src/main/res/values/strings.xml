@@ -7,6 +7,7 @@
 
     <string name="iniciarsesion">Iniciar Sesión </string>
     <string name="crearcuenta">Crear Cuenta </string>
+    <string name="tituloiniciarsesion">Iniciar Sesión </string>
 
     <string name="datos">Ingrese los siguientes datos para crear su propia cuenta y pertenecer a esta gran comunidad. </string>
 
@@ -20,21 +21,25 @@
     <string name="guardardato">Guardar datos</string>
 
 
-    <string name="textocrearcuenta">Si aun no tienes una cuenta no esperes mas y pulsa en "crear cuenta"</string>
+    <string name="textocrearcuenta">Si aún no tienes una cuenta no esperes más y pulsa en "crear cuenta"</string>
     <string name="textoiniciarsesion">Si ya estas registrado solo pulsa en "iniciar sesión"</string>
 
     <string name="bien">Felicitaciones!!!</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+    <string name="amdusuario">Administración usuario</string>
+    <string name="amdmascota">Administración mascotas</string>
+    <string name="integracion">Integración y cariño</string>
+    <string name="aliementar">Alimentación y descanso</string>
+    <string name="paseo">Paseo en compañia</string>
+    <string name="veterinario">Veterinario</string>
+    <string name="esterilizacion">Esterilización</string>
+    <string name="salud">Atender salud</string>
+    <string name="adiestrar">Adiestrar sin golpes</string>
+    <string name="adopcion">Adopción</string>
 
 
 
+    </resources>
 
-
-
-
-
-
-
-
-
-
-</resources>

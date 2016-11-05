@@ -21,8 +21,8 @@
         android:text="@string/string1"
         android:id="@+id/textView"
         android:textSize="30sp"
-        android:textStyle="bold"
-        android:textColor="@color/negro"
+        android:textStyle="italic"
+        android:textColor="@color/blanco"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:text="@string/iniciarsesion"
         android:id="@+id/inicios"
-        android:onClick="quieroentrar"
-        android:background="@color/colorinicio"
-        android:layout_marginBottom="56dp"
+        android:textColor="@color/blanco"
+        android:backgroundTint="@color/colorinicio"
+        android:layout_marginBottom="45dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/crearcuenta"
         android:layout_alignStart="@+id/crearcuenta" />
@@ -43,7 +43,8 @@
         android:layout_height="wrap_content"
         android:text="@string/crearcuenta"
         android:id="@+id/crearcuenta"
-        android:background="@color/colorinicio"
+        android:textColor="@color/blanco"
+        android:backgroundTint="@color/colorinicio"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
@@ -55,8 +56,8 @@
         android:id="@+id/textView2"
         android:textSize="17sp"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -72,7 +73,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:id="@+id/imageView2"
         android:background="@drawable/perritoblanco"
         android:layout_below="@+id/textView"
