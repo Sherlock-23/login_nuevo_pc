@@ -44,7 +44,7 @@ public class probando extends AppCompatActivity {
 
 
                     Toast.makeText(probando.this, "Has iniciado sesión exitosamente", Toast.LENGTH_LONG).show();
-                    Intent a = new Intent(probando.this, Principal.class);
+                    Intent a = new Intent(probando.this, menu_principal.class);
                     startActivity(a);
                 } else {
                     Toast.makeText(probando.this, "Usuario o contraseña incorrectas", Toast.LENGTH_LONG).show();

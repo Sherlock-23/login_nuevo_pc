@@ -51,7 +51,7 @@ public class ImplicitActivity extends Activity implements Validator.ValidationLi
     @ConfirmPassword (message = "Las contraseñas no coinciden")
     EditText  tconfirmar;
 
-    @Pattern (regex = "([0-9]{0,}[a-zA-Z]+[0-9]{0,})+", message = "El usuario debe contener 13 caracteres (A-Z, a-z y 0-9)")
+    @Pattern (regex = "([0-9]{0,}[a-zA-Z]+[0-9]{0,})+", message = "Escriba su usuario (A-Z, a-z y 0-9)")
     EditText  tusuario;
 
 

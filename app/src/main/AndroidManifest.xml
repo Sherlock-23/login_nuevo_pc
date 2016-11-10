@@ -42,6 +42,9 @@
             android:name=".probando"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".menu_principal"
+            android:screenOrientation="portrait" />
+
 
     </application>
 

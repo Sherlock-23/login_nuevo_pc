@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:weightSum="1"
+    android:contextClickable="false"
+    android:background="@drawable/fondoclaro">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        ></include>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView5"
+        android:src="@mipmap/administracion_usuario"
+        android:foregroundGravity="center"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/textView5" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/amdusuario"
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView6"
+        android:src="@mipmap/administracion_mascotas"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/amdmascota"
+        android:id="@+id/textView6"
+        android:gravity="center"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView7"
+        android:src="@mipmap/integracion"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignRight="@+id/textView7" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/integracion"
+        android:id="@+id/textView7"
+        android:gravity="center"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView8"
+        android:src="@mipmap/alimentar"
+        android:layout_above="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="39dp" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/aliementar"
+        android:id="@+id/textView8"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignRight="@+id/toolbar"
+        android:layout_alignEnd="@+id/toolbar"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView9"
+        android:src="@mipmap/paseo"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView9" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/paseo"
+        android:id="@+id/textView9"
+        android:gravity="center"
+        android:layout_below="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView10"
+        android:src="@mipmap/veterinario"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/textView10" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/veterinario"
+        android:id="@+id/textView10"
+        android:gravity="center"
+        android:layout_below="@+id/imageView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView11"
+        android:src="@mipmap/esterilizacion_v2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/esterilizacion"
+        android:id="@+id/textView11"
+        android:gravity="center"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignRight="@+id/toolbar"
+        android:layout_alignEnd="@+id/toolbar" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView12"
+        android:src="@mipmap/atendersalud"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/salud"
+        android:id="@+id/textView12"
+        android:gravity="center"
+        android:layout_below="@+id/imageView12"
+        android:layout_alignRight="@+id/toolbar"
+        android:layout_alignEnd="@+id/toolbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView13"
+        android:src="@mipmap/adiestrar"
+        android:layout_below="@+id/textView10"
+        android:layout_alignRight="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/adiestrar"
+        android:id="@+id/textView13"
+        android:gravity="center"
+        android:layout_below="@+id/imageView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView14"
+        android:src="@mipmap/adopcion"
+        android:layout_below="@+id/textView12"
+        android:layout_alignRight="@+id/imageView12"
+        android:layout_alignEnd="@+id/imageView12" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/adopcion"
+        android:id="@+id/textView14"
+        android:gravity="center"
+        android:layout_below="@+id/imageView14"
+        android:layout_alignRight="@+id/toolbar"
+        android:layout_alignEnd="@+id/toolbar" />
+
+
+</RelativeLayout>
