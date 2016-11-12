@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class menu_principal extends AppCompatActivity {
 
     ImageView pulsardescanso;
+    ImageView admmascota;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,8 @@ public class menu_principal extends AppCompatActivity {
         toolbar.setTitleTextColor(Color.WHITE);
 
 
+        //pulsar boton administracion usuario
+
         pulsardescanso = (ImageView)findViewById(R.id.imageView5);
         pulsardescanso.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,5 +33,19 @@ public class menu_principal extends AppCompatActivity {
                 startActivity(descanso);
             }
         });
+
+
+        //Pulsar boton administracion mascota
+        admmascota = (ImageView)findViewById(R.id.imageView6);
+        admmascota.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent b = new Intent(menu_principal.this, admmascota.class);
+                startActivity(b);
+            }
+        });
+
+
+
     }
 }

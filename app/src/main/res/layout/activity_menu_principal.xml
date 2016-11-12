@@ -16,8 +16,8 @@
 
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView5"
         android:src="@mipmap/administracion_usuario"
         android:foregroundGravity="center"
@@ -39,8 +39,8 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView6"
         android:src="@mipmap/administracion_mascotas"
         android:layout_below="@+id/toolbar"
@@ -60,8 +60,8 @@
         android:layout_alignParentEnd="true" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView7"
         android:src="@mipmap/integracion"
         android:layout_below="@+id/textView5"
@@ -83,8 +83,8 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView8"
         android:src="@mipmap/alimentar"
         android:layout_above="@+id/textView8"
@@ -107,8 +107,8 @@
 
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView9"
         android:src="@mipmap/paseo"
         android:layout_below="@+id/textView7"
@@ -128,8 +128,8 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView10"
         android:src="@mipmap/veterinario"
         android:layout_below="@+id/textView9"
@@ -150,11 +150,11 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView11"
         android:src="@mipmap/esterilizacion_v2"
-        android:layout_centerVertical="true"
+        android:layout_alignTop="@+id/imageView9"
         android:layout_alignLeft="@+id/imageView8"
         android:layout_alignStart="@+id/imageView8" />
 
@@ -170,8 +170,8 @@
         android:layout_alignEnd="@+id/toolbar" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView12"
         android:src="@mipmap/atendersalud"
         android:layout_below="@+id/textView9"
@@ -190,8 +190,8 @@
         android:layout_alignEnd="@+id/toolbar" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView13"
         android:src="@mipmap/adiestrar"
         android:layout_below="@+id/textView10"
@@ -211,8 +211,8 @@
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/imageView14"
         android:src="@mipmap/adopcion"
         android:layout_below="@+id/textView12"

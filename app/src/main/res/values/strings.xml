@@ -47,6 +47,16 @@
     <string name="admusuario_cerrarsesion">Cerrar sesión</string>
     <string name="admusuario_eliminarcuenta">Eliminar cuenta</string>
 
+    //adm mascota
+
+    <string name="textView16">Módulo en el cual podras agregar una nueva mascota o cambiar algunos datos de ellas y tambien quitarla de la app.</string>
+
+    <string name="admmasota_agregar">Agregar mascota</string>
+    <string name="admmascota_editar">Editar mascota</string>
+    <string name="admmascota_quitar">Quitar mascota</string>
+
+
+
 
 
     </resources>

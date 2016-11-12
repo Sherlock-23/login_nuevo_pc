@@ -48,6 +48,9 @@
         <activity android:name=".admusuario"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".admmascota"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
