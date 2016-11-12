@@ -5,13 +5,13 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-/**
- * Created by Gonzalo on 20/10/2015.
- */
+
 public class Inicio extends Activity {
 
+    /**
+     * Created by Gonzalo on 20/10/2015.
+     */
 
-    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -55,7 +55,13 @@
     <string name="admmascota_editar">Editar mascota</string>
     <string name="admmascota_quitar">Quitar mascota</string>
 
+    //Integracion y cariño
 
+    <string name="textView17">El amor de una mascota hacia su dueño es uno de los sentimientos mas sinceros y puros que existen.</string>
+
+    <string name="quieres_jugar">¿Quieres jugar?</string>
+    <string name="collar">Collar de identificación</string>
+    <string name="ayuda">Ayuda y consejos</string>
 
 
 

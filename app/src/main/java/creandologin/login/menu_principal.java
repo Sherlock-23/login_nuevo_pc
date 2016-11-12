@@ -12,6 +12,7 @@ public class menu_principal extends AppCompatActivity {
 
     ImageView pulsardescanso;
     ImageView admmascota;
+    ImageView integracion;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class menu_principal extends AppCompatActivity {
         setContentView(R.layout.activity_menu_principal);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Menu principal");
+        toolbar.setTitle("A disfrutar");
         toolbar.setTitleTextColor(Color.WHITE);
 
 
@@ -45,6 +46,16 @@ public class menu_principal extends AppCompatActivity {
             }
         });
 
+        //Pulsar boton integracion y cariño
+
+        integracion = (ImageView)findViewById(R.id.imageView7);
+        integracion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent c = new Intent(menu_principal.this, integracion.class);
+                startActivity(c);
+            }
+        });
 
 
     }

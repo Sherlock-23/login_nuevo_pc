@@ -51,6 +51,9 @@
         <activity android:name=".admmascota"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".integracion"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
