@@ -39,6 +39,14 @@
     <string name="adiestrar">Adiestrar sin golpes</string>
     <string name="adopcion">Adopción</string>
 
+    //adm usuario
+
+    <string name="textView15">¡Hola! En este Módulo podras cambiar alguno de tus datos, cerrar sesión y eliminar tu cuenta.</string>
+
+    <string name="admusuario_editar">Editar usuario</string>
+    <string name="admusuario_cerrarsesion">Cerrar sesión</string>
+    <string name="admusuario_eliminarcuenta">Eliminar cuenta</string>
+
 
 
     </resources>

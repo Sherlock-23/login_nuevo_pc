@@ -9,9 +9,11 @@ import android.support.v7.widget.Toolbar;
 
 public class admusuario extends AppCompatActivity {
 
+
     /**
      * Created by Gonzalo on 03/11/2015.
      */
+
 
 
     @Override
@@ -22,6 +24,8 @@ public class admusuario extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Administración usuario");
         toolbar.setTitleTextColor(Color.WHITE);
+
+        ;
 
 
     }
