@@ -1,12 +1,13 @@
 package creandologin.login;
 
-import android.app.Activity;
+
+
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-
-public class Principal extends Activity {
+public class admusuario extends AppCompatActivity {
 
     /**
      * Created by Gonzalo on 03/11/2015.
@@ -16,10 +17,10 @@ public class Principal extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.principal_layout);
+        setContentView(R.layout.admusuario);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Felicidades");
+        toolbar.setTitle("Administración usuario");
         toolbar.setTitleTextColor(Color.WHITE);
 
 

@@ -26,7 +26,7 @@ public class menu_principal extends AppCompatActivity {
         pulsardescanso.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent descanso = new Intent(menu_principal.this, Principal.class);
+                Intent descanso = new Intent(menu_principal.this, admusuario.class);
                 startActivity(descanso);
             }
         });

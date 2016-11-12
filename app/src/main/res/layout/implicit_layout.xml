@@ -16,115 +16,132 @@
         ></include>
 
 
-    <TextView
+
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/datos"
-        android:textColor="@color/negro"
-        android:textStyle="italic"
-        android:textSize="15sp"
-        android:id="@+id/datos"
-        android:layout_weight="0.14"
-        android:gravity="center" />
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView3"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/perritocorazon" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 
 
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:hint="@string/nombre"
-        android:maxLength="15"
-        android:singleLine="true"
-        android:id="@+id/nombre"
-        android:gravity="left|center" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datos"
+            android:textColor="@color/negro"
+            android:textStyle="italic"
+            android:textSize="15sp"
+            android:id="@+id/datos"
+            android:layout_weight="0.14"
+            android:gravity="center" />
 
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="@string/apellido"
-        android:ems="10"
-        android:id="@+id/apellido"
-        android:maxLength="15"
-        android:singleLine="true"
-        android:gravity="left|center" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/perritocorazon" />
 
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/email"
-        android:layout_gravity="center_vertical"
-        android:hint="@string/email"
-        android:elegantTextHeight="false"
-        android:editable="false"
-        android:gravity="left" />
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:id="@+id/nombre"
+                android:gravity="left|center" />
 
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:maxLength="2"
-        android:ems="10"
-        android:hint="@string/edad"
-        android:id="@+id/edad" />
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/apellido"
+                android:ems="10"
+                android:id="@+id/apellido"
+                android:maxLength="15"
+                android:singleLine="true"
+                android:gravity="left|center" />
 
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/email"
+                android:elegantTextHeight="false"
+                android:editable="false"
+                android:gravity="left" />
 
-
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:maxLength="13"
-        android:singleLine="true"
-        android:id="@+id/usuario"
-        android:hint="@string/usuario"
-        android:gravity="left|center" />
-
-
-
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:maxLength="10"
-        android:ems="10"
-        android:id="@+id/contraseña"
-        android:hint="@string/contraseña"
-        android:gravity="left|center" />
-
-
-    <EditText
-        android:layout_width="276dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:maxLength="10"
-        android:ems="10"
-        android:hint="@string/confirmar"
-        android:id="@+id/confirmar" />
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="2"
+                android:ems="10"
+                android:hint="@string/edad"
+                android:id="@+id/edad" />
 
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:maxLength="13"
+                android:singleLine="true"
+                android:id="@+id/usuario"
+                android:hint="@string/usuario"
+                android:gravity="left|center" />
 
-        android:text="@string/guardardato"
-        android:textColor="@color/blanco"
-        android:backgroundTint="@color/colorinicio"
-        android:id="@+id/guardar"
-        android:gravity="center"
-        android:layout_gravity="center_horizontal" />
+
+
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:ems="10"
+                android:id="@+id/contraseña"
+                android:hint="@string/contraseña"
+                android:gravity="left|center" />
+
+
+            <EditText
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:ems="10"
+                android:hint="@string/confirmar"
+                android:id="@+id/confirmar" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/guardardato"
+                android:textColor="@color/blanco"
+                android:backgroundTint="@color/colorinicio"
+                android:id="@+id/guardar"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 
 
 </LinearLayout>
