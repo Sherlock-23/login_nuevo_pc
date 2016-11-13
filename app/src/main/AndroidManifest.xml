@@ -22,21 +22,15 @@
 
         <activity
             android:name=".ImplicitActivity"
-            android:screenOrientation="portrait"
-
-            ></activity>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Inicio"
-            android:screenOrientation="portrait"
-
-            ></activity>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Principal"
-            android:screenOrientation="portrait"
-
-            ></activity>
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".probando"
@@ -52,6 +46,9 @@
             android:screenOrientation="portrait" />
 
         <activity android:name=".integracion"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".collar"
             android:screenOrientation="portrait" />
 
     </application>

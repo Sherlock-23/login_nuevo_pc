@@ -7,35 +7,33 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 
 
-public class integracion extends AppCompatActivity {
+public class collar extends AppCompatActivity {
 
     /**
-     * Created by Gonzalo on 12-11-2016.
+     * Created by Gonzalo on 13-11-2016.
      */
-    Button collarI;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.integracion);
+        setContentView(R.layout.collar);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Integración y cariño");
+        toolbar.setTitle("Collar de identificación");
         toolbar.setTitleTextColor(Color.WHITE);
 
 
-        collarI = (Button)findViewById(R.id.button8);
-        collarI.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent c = new Intent(integracion.this, collar.class);
-                startActivity(c);
-            }
-        });
+
 
 
 
 
     }
+
+
 }

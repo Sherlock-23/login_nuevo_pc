@@ -63,7 +63,11 @@
     <string name="collar">Collar de identificación</string>
     <string name="ayuda">Ayuda y consejos</string>
 
-
+    //Collar de identificacion
+    <string name="modulo_collar">El collar de identificación para tu mascota es importante a la hora de ser devuelta a sus dueños en caso de que ésta se extravíe.</string>
+    <string name="collar_pregunta">¿Su mascota tiene collar de identificación?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
 
     </resources>
 
