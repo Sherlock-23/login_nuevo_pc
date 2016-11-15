@@ -24,7 +24,7 @@ public class interaccion extends AppCompatActivity {
         setContentView(R.layout.interaccion_layout);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Aprendamos");
+        toolbar.setTitle("Aprendamos de ellos");
         toolbar.setTitleTextColor(Color.WHITE);
 
           radio = (RadioGroup)findViewById(R.id.radiogroup);

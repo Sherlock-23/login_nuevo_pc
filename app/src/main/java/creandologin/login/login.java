@@ -21,13 +21,6 @@ public class login extends AppCompatActivity {
 
 
 
-    public static final int CODIGO_SOLICITUD_DEL_TEXTO = 1;
-
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -42,11 +35,6 @@ public class login extends AppCompatActivity {
         // create a instance of SQLite Database
         loginDataBaseAdapter=new LoginDataBaseAdapter(this);
         loginDataBaseAdapter=loginDataBaseAdapter.open();
-
-
-
-
-
 
 
 
@@ -102,18 +90,7 @@ public class login extends AppCompatActivity {
 
     }
 
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-        if(requestCode == CODIGO_SOLICITUD_DEL_TEXTO && resultCode == RESULT_OK){
-            String nombreText = data.getStringExtra("mensaje1");
-            String apellidoText = data.getStringExtra("mensaje2");
-            String emailText = data.getStringExtra("mensaje3");
-            String fechaText = data.getStringExtra("mensaje4");
-            String usuarioText = data.getStringExtra("mensaje5");
-            String contraseñaText = data.getStringExtra("mensaje6");
-
-        }
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

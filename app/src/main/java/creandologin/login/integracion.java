@@ -16,6 +16,7 @@ public class integracion extends AppCompatActivity {
      */
     Button collarI;
     Button inter;
+    Button ayuda;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +25,10 @@ public class integracion extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Integración y cariño");
         toolbar.setTitleTextColor(Color.WHITE);
+        toolbar.setBackgroundColor(Color.parseColor("#FF02680B"));
 
+
+        //Pulsar boton collar
 
         collarI = (Button)findViewById(R.id.button8);
         collarI.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +39,7 @@ public class integracion extends AppCompatActivity {
             }
         });
 
-        //Pulsar boton interaccion
+        //Pulsar boton aprendamos de ellos
 
         inter = (Button)findViewById(R.id.button7);
         inter.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +47,16 @@ public class integracion extends AppCompatActivity {
             public void onClick(View v) {
                 Intent d = new Intent(integracion.this, interaccion.class);
                 startActivity(d);
+            }
+        });
+
+        //pulsamos boton ayuda y consejos
+        ayuda = (Button)findViewById(R.id.button9);
+        ayuda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent e = new Intent(integracion.this, ayuda_integracion.class);
+                startActivity(e);
             }
         });
 

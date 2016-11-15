@@ -59,7 +59,7 @@
 
     <string name="textView17">El amor de una mascota hacia su dueño es uno de los sentimientos mas sinceros y puros que existen.</string>
 
-    <string name="quieres_jugar">¿Quieres jugar?</string>
+    <string name="quieres_jugar">Aprendamos de ellos</string>
     <string name="collar">Collar de identificación</string>
     <string name="ayuda">Ayuda y consejos</string>
 
@@ -70,7 +70,7 @@
     <string name="no">No</string>
 
     //interaccion
-    <string name="descripcion">Mira cuan importantes son cada una de estas acciones.</string>
+    <string name="descripcion">Mira cuan importantes son cada una de estas acciones para tu mascota.</string>
     <string name="jugar">Jugar</string>
     <string name="acariciar">Acariciar</string>
     <string name="Conversar">Conversar</string>

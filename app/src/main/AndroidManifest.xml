@@ -54,6 +54,9 @@
         <activity android:name=".interaccion"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".ayuda_integracion"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
