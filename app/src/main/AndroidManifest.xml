@@ -51,6 +51,9 @@
         <activity android:name=".collar"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".interaccion"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

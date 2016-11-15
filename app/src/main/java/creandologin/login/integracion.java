@@ -15,6 +15,7 @@ public class integracion extends AppCompatActivity {
      * Created by Gonzalo on 12-11-2016.
      */
     Button collarI;
+    Button inter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +32,17 @@ public class integracion extends AppCompatActivity {
             public void onClick(View v) {
                 Intent c = new Intent(integracion.this, collar.class);
                 startActivity(c);
+            }
+        });
+
+        //Pulsar boton interaccion
+
+        inter = (Button)findViewById(R.id.button7);
+        inter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent d = new Intent(integracion.this, interaccion.class);
+                startActivity(d);
             }
         });
 

@@ -69,5 +69,20 @@
     <string name="si">Si</string>
     <string name="no">No</string>
 
+    //interaccion
+    <string name="descripcion">Mira cuan importantes son cada una de estas acciones.</string>
+    <string name="jugar">Jugar</string>
+    <string name="acariciar">Acariciar</string>
+    <string name="Conversar">Conversar</string>
+
+
+    <string name="visualizar_jugar">Para los perros, el juego es una parte importante del proceso de adiestramiento. Además, los juegos interactivos pueden consolidar el vínculo entre usted y su mascota.
+        El juego es imprescindible, ya que un perro aburrido encontrará algo que hacer y, muy a menudo, esto significa mordisquear hasta destrozarlo todo. Este problema puede corregirse fácilmente si se le dan al perro juguetes apropiados para morder.
+        Los dueños de perros llevan más de 35 años usando productos KONG para minimizar comportamientos inadecuados y entretener a sus peludos amigos. Los KONG son resistentes juguetes para morder cuyos botes irregulares estimulan los instintos naturales de caza del perro.
+        Cuando el perro atrapa el KONG, la goma natural puede ser sometida a varias horas de masticación, satisfaciendo así su necesidad de perseguir y morder.
+
+
+    </string>
+
     </resources>
 
