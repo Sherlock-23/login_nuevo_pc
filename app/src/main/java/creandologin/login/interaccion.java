@@ -32,14 +32,14 @@ public class interaccion extends AppCompatActivity {
 
 
 
-        radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener(){
+        radio.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 
 
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
 
 
-                switch (checkedId){
+                switch (checkedId) {
 
                     case R.id.radioButton3:
                         mostrar.setText(R.string.visualizar_jugar);

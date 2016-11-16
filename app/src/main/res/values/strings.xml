@@ -124,11 +124,40 @@
 
         Además, son capaces de aprender, sin la ayuda humana, el mejor camino para llegar a un lugar determinado, o de actuar y engañar a otros perros, e incluso a humanos, con tal de conseguir alguna recompensa o premio.\n\n
 
+    </string>
 
+    //ayuda y consejos integracion y cariño
 
+    <string name="tips">Tips para jugar con tu mascota</string>
 
+    <string name="tips_jugar">
+
+        <b>Tips para jugar con tu mascota</b> \n\n
+
+    Nunca hagas enojar a tu perro mientras juegan a tirar la cuerda o el trapo . El perro puede confundir el juego con algo peligroso en donde debe defenderse.\n\n
+
+    Permite que tu perro tenga libre acceso a 3 o 4 juguetes que pueda morder y con los que pueda jugar el solo.\n\n
+
+    Guarda los super juguetes (o su juguete favorito) para que los uses cuando tú juegues con él. \n\n
+
+    Si detectas que alguno de sus juguetes lo obsesiona o lo sobre estimula, intercámbiaselo por uno que no lo altere tanto. No es bueno fomentar rituales obsesivos.\n\n
+
+    Usa el juego para premiar sus buenas conductas. \n\n
+
+    Ten cuidado con los cachorros pequeños, porque suelen ser más frágiles de lo que aparentan. \n\n
+
+    Evita los juegos demasiado competitivos o agresivos – los juegos de fuerza y los forcejeos pueden enseñar a tu perro a ser agresivo con otras personas o con otros perros.\n\n
+
+    Evita los juegos con palos o piedras – los palos pueden partirse en la boca. \n\n
+
+    Tu perro tiene que aprender a escucharte – si no hace lo que tú le pides, deja de jugar e ignórale. \n\n
+
+    Los momentos de juego son los que se deben aprovechar para educar al cachorro, tanto en el morder como en la obediencia y demostrar que es el dueño el que tiene el control. Para ello, cuando vayas a darle un juguete, lánzalo no se lo des en la boca, porque
+    interpretará que te lo ha quitado y que tiene él el control. Por la misma razón, nunca vayas detrás suyo a quitarle un juguete, debes enseñarle que sea él quien te lo traiga o quien te persiga a ti.
 
     </string>
+
+
 
     </resources>
 
