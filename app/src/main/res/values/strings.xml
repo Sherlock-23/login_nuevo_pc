@@ -69,6 +69,15 @@
     <string name="si">Si</string>
     <string name="no">No</string>
 
+
+    <string name="visualizar_si">
+
+    ¡Bien hecho! De esta forma su mascota podrá ser devuelta en caso de que se pierda (esperamos que esto no suceda nunca).
+
+    </string>
+
+
+
     //interaccion
     <string name="descripcion">Mira cuan importantes son cada una de estas acciones para tu mascota.</string>
     <string name="jugar">Jugar</string>
@@ -76,10 +85,47 @@
     <string name="Conversar">Conversar</string>
 
 
-    <string name="visualizar_jugar">Para los perros, el juego es una parte importante del proceso de adiestramiento. Además, los juegos interactivos pueden consolidar el vínculo entre usted y su mascota.
-        El juego es imprescindible, ya que un perro aburrido encontrará algo que hacer y, muy a menudo, esto significa mordisquear hasta destrozarlo todo. Este problema puede corregirse fácilmente si se le dan al perro juguetes apropiados para morder.
-        Los dueños de perros llevan más de 35 años usando productos KONG para minimizar comportamientos inadecuados y entretener a sus peludos amigos. Los KONG son resistentes juguetes para morder cuyos botes irregulares estimulan los instintos naturales de caza del perro.
-        Cuando el perro atrapa el KONG, la goma natural puede ser sometida a varias horas de masticación, satisfaciendo así su necesidad de perseguir y morder.
+    <string name="visualizar_jugar">
+
+        El jugar con tu mascota es una forma divertida de enseñarles obediencia.\r\n\r\n
+
+        Para los perros, el juego es una parte importante del proceso de adiestramiento. Además, los juegos interactivos pueden consolidar el vínculo entre usted y su mascota.\r\n\r\n
+
+        El juego es imprescindible, ya que un perro aburrido encontrará algo que hacer y, muy a menudo, esto significa mordisquear hasta destrozarlo todo. Este problema puede corregirse fácilmente si se le dan al perro juguetes apropiados para morder.\r\n\r\n
+
+        Cuando se tiene un perro hay que asegurarse de que sus necesidades básicas estén cubiertas; por ejemplo, comida, bebida, sueño, paseos… Sin embargo, hay que tener en cuenta que el juego es una de las necesidades básicas de los perros. Es una actividad que le ayudará a desarrollarse intelectual y emocionalmente y es especialmente importante si el perro pasa mucho tiempo solo dentro de casa.\r\n\r\n
+
+        El juego en los perros ayuda al desarrollo intelectual e incita a los perros a comprender mejor su entorno, conocer el funcionamiento de las cosas, aprender reglas básicas de conducta, aprender a controlar su fuerza y a desarrollar habilidades y destrezas, como por ejemplo reaccionar adecuadamente a los estímulos.\r\n\r\n
+
+        El juego además les ayuda a socializarse, tanto si juegan con otros perros o con humanos, y desarrollan diferentes habilidades con distintos compañeros de juegos. Los juegos con perros estimulan la fuerza bruta y el instinto cazador y los juegos con humanos desarrollan la cooperación y la inteligencia y son más dinámicos. En ambos casos los perros aprenden a respetar a los demásademás de liberar energía y desahogarse, lo que impide la aparición de estrés y ansiedad y hace que el perro sea menos violento. Además, los juegos con humanos ayudan a reforzar el vínculo amo-perro.
+
+
+    </string>
+
+    <string name="visualizar_acariciar">
+
+
+    Acariciarlos nos entrega beneficios a nosotros mismos. Estudios han señalado que ayuda a disminuir la presión arterial, así como a bajar los niveles de depresión y sedentarismo.\n\n
+
+    Una parte importante de relacionarnos con nuestras mascotas, es la de entregarles cariño ¿Y qué mejor que a través de caricias? Para ellos, son una forma de aliviar el estrés que pueden estar sintiendo. Por ejemplo, si sufren algún dolor, ayuda a que se tranquilicen. Además, podemos tener conocimiento del cuerpo de nuestra mascota y así poder reconocer a tiempo, cualquier anomalía que pudiese presentarse.\n\n
+
+        En el caso de los perros, y específicamente cuando se trata de un perro desconocido, es importantísimo preguntar en primer lugar al dueño. Puede que el perrito tenga ciertos lugares que no le gusta que le toquen o tal vez es un tanto nervioso o desconfiado. También en el caso de los perritos sin dueño, puedes partir por darle a oler el dorso de tu mano, como presentándote. Una vez que veas que el animal no se comporta de forma agresiva o a la
+        defensiva (gruñir, saltar, o esconder la cola entre las piernas) puedes proseguir y acariciar su lomo. Y ya cuando la confianza sea mayor, puedes acariciar su cabeza, e incluso la panza y orejas, si es que ya te considera su amigo.\n\n
+
+
+    </string>
+
+    <string name="visualizar_conversar">
+
+        El hablarle a tu mascota desarrolla un lazo integral entre tú perro y tú por qué esta acción ayuda a la mascota a entender si la quieres, si está haciendo lo correcto, si hizo algo mal, es por ello que es de suma importancia comunicarte con tu mascota, de esta forma le estás expresando amor y educando a la misma vez.\n\n
+
+        Siempre hemos sabido que los perros son de los animales más inteligentes y asertivos que hemos domesticado – no por nada se dice que es el mejor amigo del hombre -. Pero recientemente se realizó una investigación que podría corroborar este concepto de inteligencia y comprensión que tienen los perritos con los humanos. Se trata del investigador canino Stanley Coren, de la Universidad de British Columbia, en Canadá, quien pudo determinar que
+        los perros no sólo pueden comprender hasta 165 palabras humanas en promedio, sino que además son capaces de resolver problemas complejos, asimilados al desarrollo intelectual de un niño de 2 años aproximadamente: entre algunas cosas que se estudió, se descubrió que tenían una idea básica de aritmética ¡sí, aritmética! Es decir, pueden contar hasta cinco, o encontrar errores en operaciones matemáticas simples.\n\n
+
+        Además, son capaces de aprender, sin la ayuda humana, el mejor camino para llegar a un lugar determinado, o de actuar y engañar a otros perros, e incluso a humanos, con tal de conseguir alguna recompensa o premio.\n\n
+
+
+
 
 
     </string>

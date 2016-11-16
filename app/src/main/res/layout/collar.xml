@@ -51,18 +51,22 @@
         android:id="@+id/radiogroupcollar">
 
         <RadioButton
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="@string/si"
             android:id="@+id/radioButton"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
 
         <RadioButton
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="@string/no"
             android:id="@+id/radioButton2"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -81,7 +85,8 @@
 
                     android:id="@+id/textView22"
                     android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true" />
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center" />
             </ScrollView>
         </RelativeLayout>
 

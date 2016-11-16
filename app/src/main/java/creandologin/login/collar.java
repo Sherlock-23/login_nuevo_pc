@@ -42,7 +42,7 @@ public class collar extends AppCompatActivity {
                 switch (checkedId){
 
                     case R.id.radioButton:
-                        mostrarcollar.setText(R.string.visualizar_jugar);
+                        mostrarcollar.setText(R.string.visualizar_si);
                         break;
 
                     case R.id.radioButton2:

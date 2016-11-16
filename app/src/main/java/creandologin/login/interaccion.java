@@ -46,11 +46,11 @@ public class interaccion extends AppCompatActivity {
                         break;
 
                     case R.id.radioButton4:
-                        mostrar.setText("Acariciar");
+                        mostrar.setText(R.string.visualizar_acariciar);
                         break;
 
                     case R.id.radioButton5:
-                        mostrar.setText("Conversar");
+                        mostrar.setText(R.string.visualizar_conversar);
                         break;
                 }
 
