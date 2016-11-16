@@ -39,7 +39,6 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/tips_jugar"
-                android:textStyle="bold"
                 android:id="@+id/textView23"
                 android:layout_below="@+id/scrollView4"
                 android:layout_centerHorizontal="true"
