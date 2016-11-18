@@ -13,7 +13,7 @@ import android.database.sqlite.SQLiteDatabase;
  * Created by Gonzalo on 01/11/2015.
  */
 
-public class LoginDataBaseAdapter
+public class  LoginDataBaseAdapter
 {
     static final String DATABASE_NAME = "login.db";
     static final int DATABASE_VERSION = 1;
@@ -91,4 +91,6 @@ public class LoginDataBaseAdapter
         String where="USERNAME = ?";
         db.update("LOGIN",updatedValues, where, new String[]{userName});
     }
+
+
 }
